@@ -1,0 +1,28 @@
+#corporationName{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+div {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+#headerOptionContainer {
+    display: flex;
+    margin: 10px;
+    float: right;
+}
+
+.headerOptions {
+    margin: 10px;
+}
+
