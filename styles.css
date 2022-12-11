@@ -26,3 +26,26 @@ div {
     margin: 10px;
 }
 
+.summaryContainer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    height:40vh;
+
+}
+
+.imagesContainer {
+    background-color:whitesmoke;
+    justify-content: space-evenly;
+    color: #1F2937;
+    height: 30vh;
+}
+
+.imagesContainer .landingImages {
+    border: #f9faf8;
+    height: 30vh;
+}
+
+.quoteSection {
+    background-color: #e5e7eb;
+    height:30vh;
+}
