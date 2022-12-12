@@ -1,43 +1,25 @@
-#corporationName{
-    color: #f9faf8;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px;
-}
-
-.navbar {
-    display: flex;
+.container {
+    background-color: #1F2937;
+    width: 100%;
     color: #F9FAF8;
-    background-color: #1F2937;
-    padding: 20px 0px 20px 100px;
-    align-items: center;
 }
 
-div {
-    background-color: #1F2937;
-    color: #e5e7eb;
-    font-size: 18px;
-    font-weight:lighter;
-}
-
-#headerOptionContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px;
+.headerOptions {
     float: right;
+}
+
+#corporationName {
+    float: left;
 }
 
 .summaryContainer {
     background-color: #1F2937;
     color: #e5e7eb;
     height:40vh;
-
 }
 
 .imagesContainer {
     background-color:whitesmoke;
-    justify-content: space-evenly;
     color: #1F2937;
     height: 30vh;
 }
