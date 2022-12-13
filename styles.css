@@ -66,6 +66,9 @@ main {
     color: #1F2937;
     height: 30vh;
     margin: 0 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #imagesContainer {
@@ -79,6 +82,9 @@ main {
 }
 
 .quoteSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
     height:30vh;
 }
@@ -86,6 +92,4 @@ main {
 .quoteSection a {
     margin: 0 15%;
     width:auto;
-    display: flex;
-    justify-content: center;
 }
