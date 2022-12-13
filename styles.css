@@ -1,3 +1,7 @@
+header {
+    margin: 0 15%;
+}
+
 .container {
     background-color: #1F2937;
     width: 100%;
@@ -10,9 +14,36 @@
 
 #corporationName {
     float: left;
+    margin-left: 2%;
+    font-weight: 300;
+    color:bisque;
+}
+
+.headerOptions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.headerOptions li {
+    display: inline-block;
+    margin: 0 20px;
+    margin-left: -10px;
+    padding-top: 28px;
+}
+
+.headerOptions a {
+    color: aqua;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.headerOptions a:hover {
+    color: bisque;
 }
 
 .summaryContainer {
+    padding-top: 10%;
     background-color: #1F2937;
     color: #e5e7eb;
     height:40vh;
