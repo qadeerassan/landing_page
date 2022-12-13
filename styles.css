@@ -54,6 +54,10 @@ main {
 }
 
 .summaryContainer {
+    display: flex;;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     padding-top: 10%;
     margin: 0 15%;
     background-color: #1F2937;
