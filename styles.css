@@ -49,6 +49,8 @@ header {
     height:40vh;
 }
 
+/* TBD: Align inner content on left and right sides of page with navbar content */
+
 .imagesContainer {
     background-color:whitesmoke;
     color: #1F2937;
