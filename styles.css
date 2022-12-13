@@ -1,10 +1,21 @@
+body {
+    background-color: #1F2937;
+    width:auto
+}
 header {
     margin: 0 15%;
+    width:auto;
+}
+
+main {
+    background-color: #1F2937;
+    width:auto;
+
 }
 
 .container {
     background-color: #1F2937;
-    width: 100%;
+    width:auto;
     color: #F9FAF8;
 }
 
@@ -39,22 +50,27 @@ header {
 }
 
 .headerOptions a:hover {
-    color: bisque;
+    color:bisque;
 }
 
 .summaryContainer {
     padding-top: 10%;
+    margin: 0 15%;
     background-color: #1F2937;
     color: #e5e7eb;
     height:40vh;
 }
 
-/* TBD: Align inner content on left and right sides of page with navbar content */
-
-.imagesContainer {
+.imagesSection {
     background-color:whitesmoke;
     color: #1F2937;
     height: 30vh;
+    margin: 0 15%;
+}
+
+#imagesContainer {
+    background-color:whitesmoke !important; 
+    height: 30%;
 }
 
 .imagesContainer .landingImages {
@@ -65,4 +81,11 @@ header {
 .quoteSection {
     background-color: #e5e7eb;
     height:30vh;
+}
+
+.quoteSection a {
+    margin: 0 15%;
+    width:auto;
+    display: flex;
+    justify-content: center;
 }
