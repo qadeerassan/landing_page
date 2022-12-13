@@ -77,12 +77,12 @@ main {
 
 #imagesContainer {
     background-color:whitesmoke !important; 
-    height: 30%;
+    height: 35%;
 }
 
 .imagesContainer .landingImages {
     border: #f9faf8;
-    height: 30vh;
+    height: 35vh;
 }
 
 .quoteSection {
