@@ -34,7 +34,7 @@ main {
     margin: 0;
     padding: 0;
     list-style: none;
-        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .headerOptions li {
@@ -68,6 +68,8 @@ main {
 
 .summaryContainer button {
     display: inline-block;
+    align-self: center;
+    margin-top: 50px;
     background-color: #00bfff;
     color: white;
     font-size: 1em;
@@ -109,7 +111,16 @@ main {
 }
 
 
-#paraHeading {
+p {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin-bottom: -40px;
+}
+
+#paragraph {
     font-size: 1em;
     padding: 20px;
     color: #8d8d8d;
