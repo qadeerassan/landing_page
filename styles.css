@@ -64,17 +64,25 @@ main {
     background-color: #1F2937;
     color: #e5e7eb;
     height:40vh;
+    padding: 50px 0;
 }
 
 .summaryContainer button {
     display: inline-block;
-    align-self: center;
+    justify-self: center;
     margin-top: 50px;
     background-color: #00bfff;
     color: white;
     font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.innerContent img {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }
 
 .imagesSection {
