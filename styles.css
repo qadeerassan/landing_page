@@ -64,13 +64,7 @@ p {
     margin-bottom: -40px;
 }
 
-.innerContent > h1 {
-    font-size: 30px;
-    background-clip:content-box;
-    color: transparent;
-    background: conic-gradient(crimson, coral);
 
-}
 
 .summaryContainer {
     display: flex;
