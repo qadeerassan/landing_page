@@ -55,6 +55,23 @@ main {
     color:bisque;
 }
 
+p {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin-bottom: -40px;
+}
+
+.innerContent > h1 {
+    font-size: 30px;
+    background-clip:content-box;
+    color: transparent;
+    background: conic-gradient(crimson, coral);
+
+}
+
 .summaryContainer {
     display: flex;
     justify-content: space-evenly;
@@ -67,20 +84,6 @@ main {
     padding: 50px 0;
 }
 
-p {
-    font-size: 1.5em;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 20px;
-    margin-bottom: -40px;
-}
-
-span > .paraHeading > p {
-    background: conic-gradient(crimson, coral);
-    background-clip: text;
-    color: transparent;
-}
 
 .summaryContainer button {
     display: inline-block;
