@@ -64,7 +64,9 @@ p {
     margin-bottom: -40px;
 }
 
-
+.summaryContainer > .innerContent > .paraHeading {
+    text-shadow: 5px 5px #558ABB;
+}
 
 .summaryContainer {
     display: flex;
