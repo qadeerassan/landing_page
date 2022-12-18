@@ -67,6 +67,21 @@ main {
     padding: 50px 0;
 }
 
+p {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin-bottom: -40px;
+}
+
+span > .paraHeading > p {
+    background: conic-gradient(crimson, coral);
+    background-clip: text;
+    color: transparent;
+}
+
 .summaryContainer button {
     display: inline-block;
     justify-self: center;
@@ -116,16 +131,6 @@ main {
 .quoteSection a {
     margin: 0 15%;
     width:auto;
-}
-
-
-p {
-    font-size: 1.5em;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 20px;
-    margin-bottom: -40px;
 }
 
 #paragraph {
