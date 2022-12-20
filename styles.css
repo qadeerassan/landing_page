@@ -132,6 +132,17 @@ p {
     width:auto;
 }
 
+.quote {
+    border-radius: 1em;
+
+}
+
+.quote blockquote {
+    margin: 1em;
+    font: 1.2rem/1.4 Georgia, serif;
+
+}
+
 #paragraph {
     font-size: 1em;
     padding: 20px;
